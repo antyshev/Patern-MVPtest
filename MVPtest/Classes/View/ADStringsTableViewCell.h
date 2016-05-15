@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ADStringsTableViewCell.h
 //  MVPtest
 //
 //  Created by Антышев Дмитрий on 14.05.16.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ADStringsTableViewCell : UITableViewCell{
+    
+}
 
+@property(copy,nonatomic)NSString *title;
 
 @end
-
